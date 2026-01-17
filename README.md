@@ -115,6 +115,7 @@ pnpm install
 Create .env file:
 
 DATABASE_URL=postgresql://user:password@host/dbname?sslmode=require
+NEXT_PUBLIC_API_BASE_URL=http://localhost:4000
 
 4️⃣ Run Prisma migrations
 npx prisma migrate dev
